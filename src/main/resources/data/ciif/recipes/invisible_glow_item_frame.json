@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:item_frame",
+      "data": {
+        "require": {
+          "EntityTag": {
+            "Invisible": true
+          }
+        }
+      }
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glow_item_frame",
+    "data": {
+      "EntityTag": {
+        "Invisible": true
+      },
+      "display": {
+        "Lore":["{\"text\":\"§r§bInvisible\"}"]
+      },
+      "Enchantments": [
+        {
+          "id": "minecraft:ciif",
+          "lvl": 1
+        }
+      ]
+    },
+    "count": 1
+  }
+}

@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "ciif.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ItemFrameEntityMixin",
+    "GlowItemFrameEntityMixin",
+    "GrindStoneScreenHandlerMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
